@@ -8,7 +8,12 @@
 #include <list>
 #include <map>
 #include <set>
-#include <lua.h>
+extern "C"
+{
+#include "lua.h"
+#include "lauxlib.h"
+#include "lualib.h"
+}
 
 typedef std::string TextureName;
 typedef std::string FactionName;

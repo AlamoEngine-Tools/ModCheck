@@ -2,6 +2,7 @@
 #define GENERAL_EXCEPTIONS_H
 
 #include <string>
+#include <stdexcept>
 
 class wexception
 {
