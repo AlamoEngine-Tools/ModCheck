@@ -72,6 +72,16 @@ ptr<File> LoadMap(const std::string& filename)
 ptr<File> LoadSFX(const std::string& filename)
 {
     static const char* const extensions[] = {"wav", NULL};
+
+    int i = filename.find('\\');
+    int j = filename.find('/');
+
+    // Check if the path already contains a path. If so we should not use the pre defined base path
+    if (i >= 0 || j >= 0)
+    {
+        return LoadFile(filename, extensions);
+    }
+
     return LoadFile(BASE_PATH_SFX + filename, extensions);
 }
 

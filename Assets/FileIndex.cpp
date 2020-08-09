@@ -57,10 +57,22 @@ static ptr<File> LoadVirtualFile(const std::string& filename_)
     return NULL;
 }
 
+static inline void ReplaceAll2(std::string& str, const std::string& from, const std::string& to)
+{
+    size_t start_pos = 0;
+    while ((start_pos = str.find(from, start_pos)) != std::string::npos) {
+        str.replace(start_pos, from.length(), to);
+        start_pos += to.length(); // Handles case where 'to' is a substring of 'from'
+    }
+}
+
 ptr<File> LoadFile(string filename, const char* const * Extensions)
 {
     // Strip the extension of the filename
     string ext;
+
+    ReplaceAll2(filename, "/", "\\");
+
     string::size_type sep = filename.find_last_of("\\/");
     string::size_type dot = filename.find_last_of(".");
     if (dot != string::npos && dot > sep) {
