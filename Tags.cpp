@@ -217,7 +217,7 @@ BEGIN_TAGS(TargetingPriority, 2)
     {"category_exclusions", "(C)"},
 END_TAGS;
 
-BEGIN_TAGS(Campaign, 17)
+BEGIN_TAGS(Campaign, 18)
     {"ai_player_control",       "F@"},
     {"ai_victory_conditions",   "(7)"},
     {"description_text",        "s"},
@@ -235,6 +235,7 @@ BEGIN_TAGS(Campaign, 17)
     {"text_id",                 "s"},
     {"trade_routes",            "(O)"},
     {"underworld_story_name",   "6"},
+    {"story_name",              "F6"},
 END_TAGS;
 
 BEGIN_TAGS(Audio, 16)
