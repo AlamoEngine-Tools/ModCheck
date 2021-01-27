@@ -23,9 +23,11 @@ void luaU_dump (lua_State* L, const Proto* Main, lua_Chunkwriter w, void* data);
 void luaU_print (const Proto* Main);
 
 /* definitions for headers of binary files */
-#define	LUA_SIGNATURE	"\033Lua"	/* binary files start with "<esc>Lua" */
-#define	VERSION		0x50		/* last format change was in 5.0 */
-#define	VERSION0	0x50		/* last major  change was in 5.0 */
+/*<customized>*/
+#define	LUA_SIGNATURE	"\033Lup"	/* Binary files start with "<esc>Lup" for Petroglyph Lua files */
+#define	VERSION		0x51		    /* Petroglyph LUA 5.0 files mask as 5.1 */
+#define	VERSION0	0x51		    /* Petroglyph LUA 5.0 files mask as 5.1 */
+/*</customized>*/
 
 /* a multiple of PI for testing native format */
 /* multiplying by 1E7 gives non-trivial integer values */
