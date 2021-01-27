@@ -38,7 +38,7 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
-    <_ProjectFileVersion>16.0.30323.82</_ProjectFileVersion>
+    <_ProjectFileVersion>16.0.30712.155</_ProjectFileVersion>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <OutDir>$(SolutionDir)$(Configuration)\</OutDir>
@@ -169,9 +169,6 @@
     <ClInclude Include="General\Exceptions.h" />
     <ClInclude Include="General\Objects.h" />
     <ClInclude Include="General\Utils.h" />
-    <ClInclude Include="lua-5.0.3\include\lauxlib.h" />
-    <ClInclude Include="lua-5.0.3\include\lua.h" />
-    <ClInclude Include="lua-5.0.3\include\lualib.h" />
     <ClInclude Include="Mod.h" />
     <ClInclude Include="Tags.h" />
   </ItemGroup>
