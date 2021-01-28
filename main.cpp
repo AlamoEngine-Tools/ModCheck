@@ -51,10 +51,10 @@ static wstring GetBaseDirForGame(GameID game)
     switch (game)
     {
         case GID_EAW_FOC:
-            return GetExePath(L"Software\\LucasArts\\Star Wars Empire at War Forces of Corruption\\1.0", L"ExePath", L"%PROGRAMFILES%\\LucasArts\\Star Wars Empire at War Forces of Corruption");
+            return GetExePath(L"Software\\LucasArts\\Star Wars Empire at War Forces of Corruption\\1.0", L"ExePath", L"%PROGRAMFILES%\\Steam\\steamapps\\common\\Star Wars Empire at War\\corruption");
 
         case GID_EAW:
-            return GetExePath(L"Software\\LucasArts\\Star Wars Empire at War\\1.0", L"ExePath", L"%PROGRAMFILES%\\LucasArts\\Star Wars Empire at War\\GameData");
+            return GetExePath(L"Software\\LucasArts\\Star Wars Empire at War\\1.0", L"ExePath", L"%PROGRAMFILES%\\Steam\\steamapps\\common\\Star Wars Empire at War\\GameData");
     }
     return L"";
 }

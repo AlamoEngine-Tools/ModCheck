@@ -6,32 +6,32 @@
       <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
     </Filter>
     <Filter Include="Source Files\General">
-      <UniqueIdentifier>{61bf019a-1ba1-4464-856e-4fe5761f1cc5}</UniqueIdentifier>
+      <UniqueIdentifier>{568e05a5-c173-4210-86c8-fa0f1921a1b8}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files\Assets">
-      <UniqueIdentifier>{ca748288-ced7-4326-a142-6404b83733f2}</UniqueIdentifier>
+      <UniqueIdentifier>{6096495d-c231-457d-8619-592a21809afb}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files\Assets\expat">
-      <UniqueIdentifier>{80583bc5-ec0f-4148-add7-19be879bad8d}</UniqueIdentifier>
+      <UniqueIdentifier>{581c1638-99eb-4755-90b3-2cd57013ec25}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files\Lua">
-      <UniqueIdentifier>{5218d9d9-603a-45a6-8087-1b173b19b903}</UniqueIdentifier>
+      <UniqueIdentifier>{d5531b2c-3950-4a65-8c9c-ed88db3456c0}</UniqueIdentifier>
     </Filter>
     <Filter Include="Header Files">
       <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
       <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
     </Filter>
     <Filter Include="Header Files\General">
-      <UniqueIdentifier>{1408cf09-1942-4aa2-800c-81f33f25c7bf}</UniqueIdentifier>
+      <UniqueIdentifier>{839790b0-b1f5-4752-85c8-88b25412f016}</UniqueIdentifier>
     </Filter>
     <Filter Include="Header Files\Assets">
-      <UniqueIdentifier>{344168bf-458c-4567-b42c-7f7523f5bad1}</UniqueIdentifier>
+      <UniqueIdentifier>{1c295c37-d49c-426d-b307-34c6dab50487}</UniqueIdentifier>
     </Filter>
     <Filter Include="Header Files\Assets\expat">
-      <UniqueIdentifier>{817223c3-1a98-4589-b4db-58b5a5a22340}</UniqueIdentifier>
+      <UniqueIdentifier>{6217c392-52d9-4064-9caa-77c6bd8dc9ff}</UniqueIdentifier>
     </Filter>
     <Filter Include="Header Files\Lua">
-      <UniqueIdentifier>{40f81f19-c900-463c-a1fa-4226f9ca15e1}</UniqueIdentifier>
+      <UniqueIdentifier>{3765664a-5d7d-41f7-a979-7d4bcafe2552}</UniqueIdentifier>
     </Filter>
     <Filter Include="Resource Files">
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
@@ -268,15 +268,6 @@
     </ClInclude>
     <ClInclude Include="Assets\expat\xmltok_impl.h">
       <Filter>Header Files\Assets\expat</Filter>
-    </ClInclude>
-    <ClInclude Include="lua-5.0.3\include\lauxlib.h">
-      <Filter>Header Files\Lua</Filter>
-    </ClInclude>
-    <ClInclude Include="lua-5.0.3\include\lua.h">
-      <Filter>Header Files\Lua</Filter>
-    </ClInclude>
-    <ClInclude Include="lua-5.0.3\include\lualib.h">
-      <Filter>Header Files\Lua</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

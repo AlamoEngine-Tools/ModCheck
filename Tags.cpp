@@ -217,7 +217,7 @@ BEGIN_TAGS(TargetingPriority, 2)
     {"category_exclusions", "(C)"},
 END_TAGS;
 
-BEGIN_TAGS(Campaign, 17)
+BEGIN_TAGS(Campaign, 18)
     {"ai_player_control",       "F@"},
     {"ai_victory_conditions",   "(7)"},
     {"description_text",        "s"},
@@ -228,10 +228,11 @@ BEGIN_TAGS(Campaign, 17)
     {"max_tech_level",          "Fi"},
     {"rebel_story_name",        "6"},
     {"special_case_production", "FGG"},
+    {"starting_active_player",  "F" },
     {"starting_credits",        "Ff"},
-    {"starting_tech_level",     "Fi"},
-    {"starting_active_player",  "F"},
     {"starting_forces",         "FGG"},
+    {"starting_tech_level",     "Fi" },
+    {"story_name",              "F6"},
     {"text_id",                 "s"},
     {"trade_routes",            "(O)"},
     {"underworld_story_name",   "6"},
@@ -968,6 +969,7 @@ void ValidateTags()
     ValidateTags(Tags_TextCrawl);
     ValidateTags(Tags_HeroClash);
     ValidateTags(Tags_Ability);
+    ValidateTags(Tags_Campaign);
     ValidateTags(Tags_TerrainDecal);
     ValidateTags(Tags_SurfaceFX);
     ValidateTags(Tags_TacticalCamera);
