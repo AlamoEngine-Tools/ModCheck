@@ -6,32 +6,32 @@
       <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
     </Filter>
     <Filter Include="Source Files\General">
-      <UniqueIdentifier>{a7a1402e-953f-4742-bd08-74fb98525691}</UniqueIdentifier>
+      <UniqueIdentifier>{568e05a5-c173-4210-86c8-fa0f1921a1b8}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files\Assets">
-      <UniqueIdentifier>{d70c6716-bbd3-4922-9b01-c83df5915baa}</UniqueIdentifier>
+      <UniqueIdentifier>{6096495d-c231-457d-8619-592a21809afb}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files\Assets\expat">
-      <UniqueIdentifier>{d740e191-b39e-453f-84b7-6600013dfdbd}</UniqueIdentifier>
+      <UniqueIdentifier>{581c1638-99eb-4755-90b3-2cd57013ec25}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files\Lua">
-      <UniqueIdentifier>{6485d03a-025c-474d-8955-def856ec5c58}</UniqueIdentifier>
+      <UniqueIdentifier>{d5531b2c-3950-4a65-8c9c-ed88db3456c0}</UniqueIdentifier>
     </Filter>
     <Filter Include="Header Files">
       <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
       <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
     </Filter>
     <Filter Include="Header Files\General">
-      <UniqueIdentifier>{b8054ac4-31b0-42c6-b886-e44ea27f235c}</UniqueIdentifier>
+      <UniqueIdentifier>{839790b0-b1f5-4752-85c8-88b25412f016}</UniqueIdentifier>
     </Filter>
     <Filter Include="Header Files\Assets">
-      <UniqueIdentifier>{ab807bd0-65d9-4b63-8ef8-d58ed6ccb492}</UniqueIdentifier>
+      <UniqueIdentifier>{1c295c37-d49c-426d-b307-34c6dab50487}</UniqueIdentifier>
     </Filter>
     <Filter Include="Header Files\Assets\expat">
-      <UniqueIdentifier>{4be8bc06-3f9c-438e-a7c9-cb63a6e623c8}</UniqueIdentifier>
+      <UniqueIdentifier>{6217c392-52d9-4064-9caa-77c6bd8dc9ff}</UniqueIdentifier>
     </Filter>
     <Filter Include="Header Files\Lua">
-      <UniqueIdentifier>{33bfa95d-2c20-4e89-866e-8e56b7aec59a}</UniqueIdentifier>
+      <UniqueIdentifier>{3765664a-5d7d-41f7-a979-7d4bcafe2552}</UniqueIdentifier>
     </Filter>
     <Filter Include="Resource Files">
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
