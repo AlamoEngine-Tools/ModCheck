@@ -228,14 +228,14 @@ BEGIN_TAGS(Campaign, 18)
     {"max_tech_level",          "Fi"},
     {"rebel_story_name",        "6"},
     {"special_case_production", "FGG"},
+    {"starting_active_player",  "F" },
     {"starting_credits",        "Ff"},
-    {"starting_tech_level",     "Fi"},
-    {"starting_active_player",  "F"},
     {"starting_forces",         "FGG"},
+    {"starting_tech_level",     "Fi" },
+    {"story_name",              "F6"},
     {"text_id",                 "s"},
     {"trade_routes",            "(O)"},
     {"underworld_story_name",   "6"},
-    {"story_name",              "F6"},
 END_TAGS;
 
 BEGIN_TAGS(Audio, 16)
@@ -969,6 +969,7 @@ void ValidateTags()
     ValidateTags(Tags_TextCrawl);
     ValidateTags(Tags_HeroClash);
     ValidateTags(Tags_Ability);
+    ValidateTags(Tags_Campaign);
     ValidateTags(Tags_TerrainDecal);
     ValidateTags(Tags_SurfaceFX);
     ValidateTags(Tags_TacticalCamera);
