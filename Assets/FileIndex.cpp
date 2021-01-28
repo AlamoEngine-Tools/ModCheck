@@ -232,6 +232,7 @@ void Initialize(const wstring& mod_path, const wstring& main_path, const wstring
 
     ptr<File> f;
     // Load the content
+    if ((f = LoadFile("Data\\Patch2.meg"))                          != NULL) IndexMegaFile(f);
     if ((f = LoadFile("Data\\Patch.meg"))                           != NULL) IndexMegaFile(f);
     if ((f = LoadFile("Data\\MegaFiles.xml"))                       != NULL) ProcessMegaFileIndex(*f, SanitizePath(main_path));
     if ((f = LoadFile("Data\\Audio\\SFX\\SFX2D_English.meg"))       != NULL) IndexMegaFile(f, "DATA\\AUDIO\\SFX\\");
@@ -242,6 +243,7 @@ void Initialize(const wstring& mod_path, const wstring& main_path, const wstring
     {
         // If we have a backup path, load those contents as well
         wstring path = SanitizePath(old_path);
+        if ((f = LoadPhysicalFile(path, "Data\\Patch2.meg"))                          != NULL) IndexMegaFile(f);
         if ((f = LoadPhysicalFile(path, "Data\\Patch.meg"))                           != NULL) IndexMegaFile(f);
         if ((f = LoadPhysicalFile(path, "Data\\MegaFiles.xml"))                       != NULL) ProcessMegaFileIndex(*f, path);
         if ((f = LoadPhysicalFile(path, "Data\\Audio\\SFX\\SFX2D_English.meg"))       != NULL) IndexMegaFile(f, "DATA\\AUDIO\\SFX\\");
